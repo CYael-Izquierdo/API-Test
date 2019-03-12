@@ -1,0 +1,14 @@
+<testsuite errors="0" failures="0" hostname="cizquierdo.local" name="update-project.Update project" skipped="0" tests="1" time="0.221977" timestamp="2019-01-10T09:04:32.201444"><testcase classname="update-project.Update project" name="Modify project name by id" status="passed" time="0.221977"><system-out>
+<![CDATA[
+@scenario.begin
+
+  @Working @delete.new.project
+  Scenario: Modify project name by id
+    Given a "Update Test" Project with "update-test" identifier ... passed in 0.130s
+    When I modify the name to "Project updated" ... passed in 0.039s
+    Then I should see a successful update code and the new name in the project ... passed in 0.053s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>

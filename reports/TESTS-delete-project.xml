@@ -1,0 +1,14 @@
+<testsuite errors="0" failures="0" hostname="cizquierdo.local" name="delete-project.Delete project" skipped="0" tests="1" time="0.205855" timestamp="2019-01-10T09:04:31.918569"><testcase classname="delete-project.Delete project" name="Delete project by id" status="passed" time="0.205855"><system-out>
+<![CDATA[
+@scenario.begin
+
+  @Working
+  Scenario: Delete project by id
+    Given a new project created ... passed in 0.152s
+    When I delete this project ... passed in 0.043s
+    Then I should see a successful delete code and I shouldn't be able to find the project ... passed in 0.011s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>
